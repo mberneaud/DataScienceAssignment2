@@ -1,5 +1,5 @@
 ############################
-# Eurosceptic Misfit Master Thesis
+# Introduction to Collaborative Data Science Assignment 2
 # Author: Malte Berneaud-Kötz and Jonas Markgraf
 # Date created: 21.03.16
 # Last edited: 21.03.16
@@ -19,3 +19,8 @@ write.csv(data, "Data/CMP.csv")
 # Creating a file containing the download date
 dateDownloaded <- date()
 write(dateDownloaded, "Data/CMP_download_date")
+
+# detaching package after downloading data
+detach("package:manifestoR", unload = TRUE)
+
+

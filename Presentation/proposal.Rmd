@@ -1,0 +1,26 @@
+---
+title: "PairAssignment2"
+author: "Jonas Markgraf & Malte Berneaud-Kötz"
+date: "21 March 2016"
+output: pdf_document
+  toc: true
+bibliography:
+  -packages.bib
+  -
+---
+
+
+
+```{r setting options, include=FALSE}
+# The below argument sets global chunk options for the document to follow
+opts_chunk$set(cache = TRUE, echo=FALSE)
+```
+
+```{r load packages, include=FALSE}
+ # Packages needed for the execution of this Rmd are listed in include.packages and checked against the installed packages on the machine executing the code. If they are not installed, they will be installed automatically.
+include.packages <- c("dplyr", "manifestoR", "quantmod")
+  needed.packages <- include.packages[!(include.packages %in% installed.packages()[, "Package"])]
+if(length(needed.packages)) install.packages(needed.packages)
+library(dplyr)
+```
+
