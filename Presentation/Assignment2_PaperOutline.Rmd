@@ -83,11 +83,13 @@ Matching the dataset for board composition and for mayoral elections allows (1) 
 
 ## 4.2. Statistical Model
 
-To come.
+Given the research question, setting up the dependent variable as binary offers the best theoretical fit between the the construct under study and the data available to us. Therefore the analysis will employ a logistic regression model using re-election / no re-election of incumbent mayors as the dependent variable. This will allow for a very close fit of the model and the data, intuitive visualisations of patterns in the data using predictive probabilities and also keeps the complexity of the model in check. 
+The primary indepent variable of the model is board membership in the local *Sparkasse*, with additional controls for the top positions of chairman and vice-chairman. 
+In order to cleanly estimate the effect of board membership on re-election chances, it is important to get a good grasp on the determinants of appointment to board positions. We therefore control for financial expertise of mayors, party affiliation as some party might contribute a disproportionate share of mayors. Moreover, we will control for other factors which might affect the chances of re-eleciton.  These include the fiscal situation of the municipality, as municipalities in debt might reflect poorly on the incumbent, and the size of the municipality, as larger municipalities might offer more resources to retain the mayor's office. For the size of the municipality, the number of valid votes is used as a proxy.
 
 # 5. Conclusion
 
-The paper purports to estimate the effect of board membership in German public savings banks (*Sparkassen*) on mayors' electoral success. It compares electoral performance of mayors with and without a board seat in five German federal states covering 2,099 of 11,192 municipalities and 79 of 416 savings banks in Germany over the years from 2006 to 2015. To answer the research question, we compile a novel hand-collected dataset on the boardroom composition of German public banks with detailed information on board member profiles.
+The paper purports to estimate the effect of board membership in German public savings banks (*Sparkassen*) on mayors' electoral success. It compares electoral performance of mayors with and without a board seat in in Bavaria using a logistic regression model. To answer the research question, we compile a novel hand-collected dataset on the boardroom composition of German public banks with detailed information on board member profiles in addition to the existing data set on Bavarian municipal elections from 1948 to 2014. 
 
 # References
 
