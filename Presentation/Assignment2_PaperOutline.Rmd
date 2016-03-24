@@ -1,5 +1,6 @@
 ---
 title: 'Electoral Effects of Public Savings Banks in German Subnational Elections: The Case of Bavaria'
+subtitle: "Course: Introduction to Collaborative Social Science Data Analysis"
 author: |
   | Malte Berneaud-Kötz & Jonas Markgraf
   | Hertie School of Governance
