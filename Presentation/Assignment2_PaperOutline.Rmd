@@ -89,7 +89,7 @@ In order to cleanly estimate the effect of board membership on re-election chanc
 
 # 5. Conclusion
 
-The paper purports to estimate the effect of board membership in German public savings banks (*Sparkassen*) on mayors' electoral success. It compares electoral performance of mayors with and without a board seat in in Bavaria using a logistic regression model. To answer the research question, we compile a novel hand-collected dataset on the boardroom composition of German public banks with detailed information on board member profiles in addition to the existing data set on Bavarian municipal elections from 1948 to 2014. 
+The paper purports to estimate the effect of board membership in German public savings banks (*Sparkassen*) on mayors' electoral success. It compares electoral performance of mayors with and without a board seat in in Bavaria using a logistic regression model. To answer the research question, we compile a novel hand-collected dataset on the boardroom composition of German public banks with detailed information on board member profiles, which is combined with an existing data set on 6,267 Bavarian municipal elections from 2000 to 2014. 
 
 # References
 
