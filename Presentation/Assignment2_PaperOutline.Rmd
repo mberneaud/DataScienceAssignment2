@@ -1,19 +1,24 @@
 ---
-title: 'The Political Economy of Public Banks: Electoral Effects of Savings Banks
-  in Bavarian Subnational Elections'
-author: "Malte Berneaud-Kötz & Jonas Markgraf"
-output: word_document
+title: 'Electoral Effects of Public Savings Banks in German Subnational Elections: The Case of Bavaria'
+author: |
+  | Malte Berneaud-Kötz & Jonas Markgraf
+  | Hertie School of Governance
+date:         "25 March 2016"
+output:       pdf_document
 bibliography: library.bib
+header-includes:
+  - \usepackage{setspace}
+  - \doublespacing
 ---
 
-# 1. Introduction[^11]
+# 1. Introduction[^3]
 
 The collapse of large the US bank Lehman Brothers in 2008 and the subsequent global financial crisis brought banks to the attention of the general public, policymakers, and scholars. By analyzing issues such as financial regulation or bank bailouts, political economists look at finance and politics as two closely linked, but separate spheres. Publicly owned financial institutions are, however, strikingly neglected by the Political Economy literature although they play an essential role in Europe’s bank-based economy. A closer examination of the political economy of public banks is, therefore, indispensable in order to fully understand the nature of and challenges for Europe’s banking sector.
 
 Public banks are central players in many European countries, but are particularly important in the German banking system with more than 400 public banks. Germany's publicly owned savings banks (*Sparkassen*) are important local employers and lenders to small- and medium-sized enterprises; they overall account for 34% of total assets and 44% of total lending in Germany [@DeutscheBundesbank2015]. Hence, public savings banks constitute an essential element of the German banking sector and are important actors for the German *Mittelstand* economy.
 At the same time, close links between savings banks and local politics make banks subject to potential political influence. *Sparkassen* are owned by German counties and municipalities, which grants local politicians access to key supervisions function in the bank management; due to their public ownership, local politicians are members of savings banks' Board of Directors (*Verwaltungsrat*) as well as the credit committee, which allows them to influence strategic decisions of savings banks (e.g. credit volume or bank consolidation) with direct implications for the municipal economy. Scholars, therefore, often speculate about the politicization of bank activities and political rent extraction by board members.
 
-In this paper, we analyze the effect of board membership in Bavarian *Sparkassen* in Germany on politicians’ success in local elections. Board membership enables politicians to influence bank activities that might improve their re-election chances. Previous papers have shown that German savings banks’ activities indeed follow the political business cycles of elections. However, it remains unclear whether these lending activities have an effect on incumbents’ re-election chances. To do so, the paper exploits the fact that not all locally elected political leaders in Germany are board members in savings banks. We compare electoral performance of politicians that are members of a board with that of politicians without a seat at a savings bank’s board. A unique hand-collected panel dataset on the boardroom composition of Bavarian savings banks with detailed information of board member profiles is used in order to analyze the effects of board membership on electoral success in municipalities[^10]. 
+In this paper, we analyze the effect of board membership in Bavarian *Sparkassen* in Germany on politicians’ success in local elections. Board membership enables politicians to influence bank activities that might improve their re-election chances. Previous papers have shown that German savings banks’ activities indeed follow the political business cycles of elections. However, it remains unclear whether these lending activities have an effect on incumbents’ re-election chances. To do so, the paper exploits the fact that not all locally elected political leaders in Germany are board members in savings banks. We compare electoral performance of politicians that are members of a board with that of politicians without a seat at a savings bank’s board. A unique hand-collected panel dataset on the boardroom composition of Bavarian savings banks with detailed information of board member profiles is used in order to analyze the effects of board membership on electoral success in municipalities[^2]. 
 
 The paper is structured as follows: In Section 2, the relevant existing literature is reviewed. Section 3 outlines the main hypothesis of the paper and, subsequently, datasets and the statistical model are presented (section 4). Section 5 concludes.
 
@@ -25,7 +30,7 @@ Recent academic research confirms the existence of *electoral cycles* in public 
 
 German savings banks have been shown to lend more in years in which elections take place at the county level [@Englmaier2016; @Gropp2015]; moreover, it has been demonstrated that *Sparkassen* are less likely to lay off employees and to merge with neighbouring savings banks in the year preceeding county elections [@Vins2008]. Thus, the existence of *electoral lending cycles* is well established in the literature. The Public Economics literature on public banks, however, largely focuses on the behaviour of banks and its detrimental effect to banks' performance, thereby, ignoring an important aspect: The political implications of politicized bank behaviour. This paper contributes to this strand of literature by examining the electoral effect of politicians' board membership in German *Sparkassen*, hence, analyzing whether political tinkering with savings banks actually increases incumbents' chances for re-election.
 
-This paper, furthermore, contributes to the broad Political Science literature on the *incumbency advantage* in established democracies[^7]. Incumbent parties and candidates seem to derive an advantage from holding political office during re-election campaigns, an effect first identified by Erikson [-@Erikson1971] for US Congressional Elections. Previous research has demonstrated that also German politicians at the state, federal, and municipal political level enjoy incumbency advantages [@Ade2011; @Freier2011; @Hainmueller2008]. These studies, however, have not provided exhaustive explanations for the causal relation and the mediating factors between incumbency and re-election chance for politicians. By analyzing the electoral effect of board membership for incumbent mayors in Germany, this paper analyzes a potential causal mechanism for the incumbency advantage. The paper, thus, links the Public Economics literature on *political lending cycles* of banks and the Political Science literature on the *incumbency advantage* - two debates that, so far, have not talked to each other.
+This paper, furthermore, contributes to the broad Political Science literature on the *incumbency advantage* in established democracies[^1]. Incumbent parties and candidates seem to derive an advantage from holding political office during re-election campaigns, an effect first identified by Erikson [-@Erikson1971] for US Congressional Elections. Previous research has demonstrated that also German politicians at the state, federal, and municipal political level enjoy incumbency advantages [@Ade2011; @Freier2011; @Hainmueller2008]. These studies, however, have not provided exhaustive explanations for the causal relation and the mediating factors between incumbency and re-election chance for politicians. By analyzing the electoral effect of board membership for incumbent mayors in Germany, this paper analyzes a potential causal mechanism for the incumbency advantage. The paper, thus, links the Public Economics literature on *political lending cycles* of banks and the Political Science literature on the *incumbency advantage* - two debates that, so far, have not talked to each other.
 
 # 3. Hypotheses and Predictions
 
@@ -86,24 +91,8 @@ The paper purports to estimate the effect of board membership in German public s
 
 # References
 
-[^1]: *Sparkassen*, for instance, are major contributors of local initiatives and projects through generous donations.
+[^1]: Interestingly, in young democracies, such as Mexico, scholars find the opposite effect (*incumbency curse*), i.e. incumbents seem to get punished in the following election [e.g. @Lucardi2016].
 
-[^2]: SMEs are the backbone of the German economy. Usually, smaller companies have less access to credit. The specific nature of the German banking system with the prominent role of *Sparkassen*, however, facilitates access to credit for smaller enterprises.
+[^2]: As data collection for the board composition of German savings banks is very time-consuming, we were forced to restrict our sample to only one federal state.
 
-[^3]: Only five savings banks are politically independent and not owned by a political entity.
-
-[^4]: While municipal mayors in Bavaria and Baden Wurttemberg are elected directly by voters since World War II, most German federal states introduced direct elections on the municipal level only in the 1990s.
-
-[^5]: Not all mayors are full-time politicians. By law, municipalities with more than 5,000 inhabitants should have a full-time mayor; however, this threshold is fuzzy in reality (for pitfalls with population thresholds in Regression Discontinuity Designs, see Eggers et al. [-@Eggers2015]). Generally, full-time mayors govern larger municipalities than part-time mayors.
-
-[^6]: The perceived importance of municipal elections in Germany is reflected in the comparatively high voter turnout. In Bavaria, for instance, the average voter turnout in municipal elections was 55% in 2014, which is significantly higher than for European or county elections.
-
-[^7]: Interestingly, in young democracies, such as Mexico, scholars find the opposite effect (*incumbency curse*), i.e. incumbents seem to get punished in the following election [e.g. @Lucardi2016].
-
-[^8]: The sample period could be extended to 1998 to 2015 as argued below.
-
-[^9]: Data availability and quality varies enormously across German states. Often, state statistical offices themselves have no digitalized, harmonized data on historical mayoral elections.
-
-[^10]: As data collection for the board composition of German savings banks is very time-consuming, we were forced to restrict our sample to only one federal state.
-
-[^11]: This paper is based on and a part of a research project by Guillermo Rosas (Washington University in St. Louis; grosas@wustl.edu) and Jonas Markgraf (Hertie School of Governance; markgraf@hertie-school.org).
+[^3]: This paper is based on and a part of a research project by Guillermo Rosas (Washington University in St. Louis; grosas@wustl.edu) and Jonas Markgraf (Hertie School of Governance; markgraf@hertie-school.org).
